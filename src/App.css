@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: #333;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin-top: 4rem;
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-second: 'Spectral', Georgia;
+}
+
+img {
+  display: inline;
+  max-width: 100%;
+}
+
+button, input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+}
+
+.container {
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
