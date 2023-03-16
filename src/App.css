@@ -11,6 +11,7 @@ body {
   margin-top: 4rem;
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: 'Spectral', Georgia;
+  font-family: var(--type-first);
 }
 
 img {
