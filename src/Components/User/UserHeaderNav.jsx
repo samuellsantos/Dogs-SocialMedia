@@ -38,23 +38,27 @@ export const UserHeaderNav = () => {
         }`}
       >
         <NavLink to="/conta" end>
-          <img src={MinhasFotos} alt="Minhas Fotos" />
+          <img src={MinhasFotos} alt="Minhas Fotos" style={{ opacity: '1' }} />
           {mobile && 'Minhas fotos'}
         </NavLink>
 
         <NavLink to="/conta/estatisticas">
-          <img src={estatisticas} alt="estatisticas" />
+          <img src={estatisticas} alt="estatisticas" style={{ opacity: '1' }} />
           {mobile && 'Estatisticas'}
         </NavLink>
 
         <NavLink to="/conta/postar">
-          <img src={adicionarFoto} alt="adicionarFoto" />
+          <img
+            src={adicionarFoto}
+            alt="adicionarFoto"
+            style={{ opacity: '1' }}
+          />
           {mobile && 'Adicionar Foto'}
         </NavLink>
 
         <button onClick={userLogout}>
           {' '}
-          <img src={sair} alt="adicionarFoto" />
+          <img src={sair} alt="adicionarFoto" style={{ opacity: '1' }} />
           {mobile && 'Sair'}
         </button>
       </nav>

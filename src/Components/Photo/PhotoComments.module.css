@@ -3,7 +3,9 @@
   padding: 0 2rem;
   overflow-y: auto;
 }
-
+.single.comments {
+  padding: 0px;
+}
 .comments li {
   margin-bottom: .5rem;
   line-height: 1.2rem;

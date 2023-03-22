@@ -10,7 +10,7 @@ export const Header = () => {
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
         <Link to="/" className={styles.logo}>
-          <img src={Dogs} alt="Dog - Home" />
+          <img src={Dogs} alt="Dog - Home" style={{ opacity: '1' }} />
         </Link>
         {data ? (
           <Link to="/conta" className={styles.login}>
